@@ -50,8 +50,6 @@ public class NeverEndingSkiesUtility
 		NESUEventHandler eventHandler = new NESUEventHandler();
 		
 		MinecraftForge.EVENT_BUS.register(eventHandler);
-		
-		NESUItems.register();
 	}
 	
 	@Mod.EventHandler

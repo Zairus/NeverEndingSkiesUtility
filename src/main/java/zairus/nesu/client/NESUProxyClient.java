@@ -1,6 +1,5 @@
 package zairus.nesu.client;
 
-import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -24,20 +23,5 @@ public class NESUProxyClient extends NESUProxy
 	public void postInit(FMLPostInitializationEvent e)
 	{
 		super.postInit(e);
-	}
-	
-	@Override
-	public void registerItem(Item item, String name, int meta, boolean model)
-	{
-		super.registerItem(item, name, meta, model);
-		
-		if (model)
-		{
-			registerModel(item, meta, name);
-		}
-	}
-	
-	public void registerModel(Item item, int meta, String name)
-	{
 	}
 }

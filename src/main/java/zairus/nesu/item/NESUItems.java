@@ -1,7 +1,8 @@
-package zairus.nesu;
+package zairus.nesu.item;
 
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
+import zairus.nesu.NESUConstants;
 
 public class NESUItems
 {
